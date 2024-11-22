@@ -1,0 +1,407 @@
+.main-logo {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.logo-blue {
+  font-family: "Raleway";
+  color: var(--main-color);
+}
+
+.menu__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.menu__link:hover {
+  color: var(--main-color);
+}
+.menu__call:hover {
+  color: var(--main-color);
+}
+
+.menu__call {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.menu__box {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 93px;
+}
+
+.menu__wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 700px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.main-btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 10px 32px;
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.advan__list {
+  display: flex;
+  gap: 30px;
+}
+
+.advan__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.advan__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.advan__box {
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+
+.main-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.work__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__item {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  max-width: 260px;
+}
+
+.team__img {
+  width: 100%;
+}
+
+.team__subtitle {
+  margin-bottom: 10px;
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.team__text {
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+.team__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.team__link img {
+  width: 20px;
+  height: 20px;
+}
+.team__link:hover {
+  background-color: var(--main-color);
+}
+
+.team__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.clients__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+
+.menu__btn {
+  display: none;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.logo-white {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer__address {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.footer__call {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.portfolio__list {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.portfolio__item {
+  border: 1px solid #eee;
+}
+
+#overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.modal {
+  padding: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 530px;
+  min-height: 580px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#modal__btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal__title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #212121;
+}
+
+.main-label {
+  font-size: 12px;
+  color: #757575;
+}
+
+.modal__input {
+  font-size: 12px;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal__input {
+  padding-left: 35px;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal textarea {
+  padding-top: 12px;
+  resize: none;
+  height: 120px;
+}
+
+.modal__label-send {
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.modal__label-send {
+  text-decoration: underline;
+  color: #2196f3;
+}
+
+.modal__label-send {
+  display: inline-block;
+  margin-bottom: 42px;
+}
+.modal__label {
+  position: relative;
+}
+
+.modal__label img {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .footer__wrapper {
+    text-align: center;
+  }
+
+  .clients__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .team__list,
+  .work__list,
+  .advan__list {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team__item,
+  .work__item,
+  .work__img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .main-title {
+    font-size: 28px;
+  }
+  .advan__title {
+    text-align: center;
+  }
+  .hero__title {
+    font-size: 26px;
+    line-height: 162%;
+  }
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu__btn {
+    display: block;
+  }
+  .menu__box {
+    justify-content: space-between;
+  }
+  .modal {
+    width: 80%;
+  }
+}
